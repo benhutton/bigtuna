@@ -9,9 +9,10 @@ gem "open4"
 gem "json"
 
 #xmpp notifications
-gem "xmpp4r-simple"
+#gem "xmpp4r-simple"
 
 group :development, :test do
+  gem "capistrano"
   gem "capybara"
   gem "launchy"
   gem "faker"
